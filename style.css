@@ -170,6 +170,7 @@ color: var(--clr-grey-950);
   }
 
 }
+
 @keyframes shadow {
   0% {
     box-shadow: -4px -4px 0 0 var(--clr-grey-950);
