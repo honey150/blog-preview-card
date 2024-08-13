@@ -54,6 +54,8 @@ font-family: var(--ff);
   padding: 1.5rem;
   border-radius: 0.9rem;
   border: 1px solid var(--clr-grey-500);
+  animation: shadow 0.8s linear forwards;
+  /* box-shadow: 4px 4px 0 2px var(--clr-grey-950); */
 }
 
 .blog-preview-img {
@@ -165,5 +167,15 @@ color: var(--clr-grey-950);
     transform: translateY(2px);
   }  100% {
     transform: translateY(-2px);
+  }
+
+}
+@keyframes shadow {
+  0% {
+    box-shadow: -4px -4px 0 0 var(--clr-grey-950);
+    
+  }  100% {
+    box-shadow: 4px 4px 0 2px var(--clr-grey-950);
+    
   }
 }
